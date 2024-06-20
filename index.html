@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Juros Compostos</h1>
+    </header>
+    <main>
+        <section id="calculator">
+            <h2>Calcule seus Juros Compostos</h2>
+            <form id="interest-form">
+                <label for="principal">Valor Principal:</label>
+                <input type="number" id="principal" required>
+                <br>
+                <label for="rate">Taxa de Juros Anual (%):</label>
+                <input type="number" id="rate" step="0.01" required>
+                <br>
+                <label for="years">Período (anos):</label>
+                <input type="number" id="years" required>
+                <br>
+                <button type="submit">Calcular</button>
+            
+            </form>
+            <div id="result"></div>
+
+
+            <section id="loan-calculator">
+                <h2>Calculadora de Empréstimos</h2>
+                <form id="loan-form">
+                    <label for="loan-amount">Valor do Empréstimo:</label>
+                    <input type="number" id="loan-amount" required>
+                    <br>
+                    <label for="interest-rate">Taxa de Juros Anual (%):</label>
+                    <input type="number" id="interest-rate" step="0.01" required>
+                    <br>
+                    <label for="loan-term">Prazo do Empréstimo (em anos):</label>
+                    <input type="number" id="loan-term" required>
+                    <br>
+                    <button type="submit">Calcular</button>
+                </form>
+                <div id="loan-result"></div>
+
+                <section id="bmi-calculator">
+                    <h2>Calculadora de IMC (Índice de Massa Corporal)</h2>
+                    <form id="bmi-form">
+                        <label for="weight">Peso (kg):</label>
+                        <input type="number" id="weight" step="0.1" required>
+                        <br>
+                        <label for="height">Altura (m):</label>
+                        <input type="number" id="height" step="0.01" required>
+                        <br>
+                        <button type="submit">Calcular IMC</button>
+                    </form>
+                    <div id="bmi-result"></div>
+                </section>
+                
+                <section id="faq">
+                    <h2>Perguntas Frequentes (FAQ)</h2> 
+                    
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">Thiago Como usar a calculadora de juros compostos?</button>
+                        <div class="faq-answer">
+                            <p>Para usar a calculadora de juros compostos, siga estes passos:</p>
+                            <ul>
+                                <li>Insira o valor principal (montante inicial).</li>
+                                <li>Informe a taxa de juros anual.</li>
+                                <li>Especifique o período de tempo em anos.</li>
+                                <li>Clique no botão "Calcular".</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <button class="faq-question">Thiago Como calcular o IMC usando a calculadora?</button>
+                        <div class="faq-answer">
+                            <p>Para calcular o Índice de Massa Corporal (IMC):</p>
+                            <ul>
+                                <li>Insira o seu peso em quilogramas (kg).</li>
+                                <li>Informe a sua altura em metros (m).</li>
+                                <li>Clique no botão "Calcular IMC".</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <!-- Adicione mais perguntas e respostas conforme necessário -->
+                
+                </section>
+                <h2>Site Desenvolvido Por @Thiago De Amorim Moreira</h2>
+                
+            </section>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Calculadora de Juros Compostos. Todos os direitos reservados.</p>
+        
+        
+        </body>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+</body>
+</html>
